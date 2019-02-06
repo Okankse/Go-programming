@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
   fmt.Print("Please enter a note: ")
-  var input float64
-  fmt.Scanf("%f", &input)  // entered number
+  var input int
+  fmt.Scanf("%d", &input)  // entered number
 
   if input>=85 && input<=100{
 
